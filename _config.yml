@@ -2,9 +2,9 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: Keep Theme
-  author: Keep team
-  url: https://keep.xpoet.cn/
+  title: Dazzlingo OKami
+  author: DazzlingOkami
+  url: https://dazzlingokami.github.io/
 
 
 # ---------------------------------------------------------------------------------------
@@ -15,10 +15,10 @@ style:
   primary_color: '#0066CC'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.svg
+  avatar: /images/face.jpg
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/logo.svg
+  favicon: /images/blog.svg
 
   # Article image align position, value: left | center
   article_img_align: left
@@ -36,7 +36,7 @@ style:
 
   # First screen
   first_screen:
-    enable: false
+    enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
     description: Keep writing and Keep loving.
 
@@ -73,7 +73,7 @@ menu:
   # Categories: /categories
   # Tags: /tags
   # Links: /links
-  # About: /about
+  About: /about
   # Changelog: /changelog
   # ......
 
@@ -94,7 +94,7 @@ home_article:
 # Code copy
 # ---------------------------------------------------------------------------------------
 code_copy:
-  enable: false
+  enable: true
   style: default        # values: default | mac
 
 
@@ -115,7 +115,7 @@ toc:
 # Post copyright info
 # ---------------------------------------------------------------------------------------
 copyright_info:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
@@ -136,7 +136,7 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false
+    enable: true
     site_uv: false
     site_pv: false
     page_pv: false
@@ -148,9 +148,10 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false
-  preload: false     # Preload the search data when the page loads
-
+  enable: true
+  trigger: auto # values: auto | manual
+  unescape: false
+  preload: true
 
 # ---------------------------------------------------------------------------------------
 # Comment plugin
@@ -201,7 +202,7 @@ lazyload:
 # CDN
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false
+  enable: true
 
 
 # ---------------------------------------------------------------------------------------
